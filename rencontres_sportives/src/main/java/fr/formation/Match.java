@@ -2,7 +2,7 @@ package fr.formation;
 
 import java.util.List;
 
-public class Match {
+public abstract class Match {
 	
 	
 	
@@ -11,5 +11,10 @@ public class Match {
 		//	player.play();
 		}
 	}
+	
+	public abstract void play1();
+	 
+	 
+	public abstract void play2();
 
 }

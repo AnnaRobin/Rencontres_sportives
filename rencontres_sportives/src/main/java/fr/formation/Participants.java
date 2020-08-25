@@ -16,10 +16,7 @@ public abstract class Participants {
 	}
 	
 	
-	 public abstract void play1();
 	 
-	 
-	 public abstract void play2();
 	
 
 }

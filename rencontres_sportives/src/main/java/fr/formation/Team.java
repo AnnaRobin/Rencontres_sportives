@@ -24,11 +24,13 @@ public class Team extends Participants {
 	}
 	
 	
-	
 	 public int getTeamSize() {
 			return athletes.size();
 		    }
 	
+	 
+
+	 
 	 public void play1() {
 		}
 		
