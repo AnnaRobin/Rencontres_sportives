@@ -1,5 +1,11 @@
 # Rencontres_sportives
-TP - Objet: instance d'une classe avec un état spécifique, typage, encapsulation, composition, héritage, poilymorphisme
+- Objectif pédagogique = conception et programmation orientées objet
+    - Identifier des classes, leurs responsabilités
+    - Nommage, typage
+    - Encapsulation, Héritage, Composition
+    - Programmaton défensive
+    - Organisation du code
+    - Structure de données : listes
 
 
 TP programmation objet "rencontres sportives"
