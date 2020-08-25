@@ -1,0 +1,35 @@
+package fr.formation;
+
+import java.util.ArrayList;
+import java.util.List;
+//import com.sun.tools.javac.util.List;
+
+public class Team extends Participants {
+	
+	private List<Athlete> athletes = new ArrayList<>();
+	
+	private void add(Athlete athlete) {
+		
+	}
+	
+	public Team(String name, Athlete...athletes) {
+		super(name);
+		for (Athlete athlete : athletes) {
+			add(athlete);
+		}
+		if (athletes.length < 2 || athletes.length > 11) {
+			throw new IllegalArgumentException("The Team must be composed of min. 2 and max. 11 athletes!");
+		}
+		
+	}
+	
+
+
+	
+
+
+	
+	
+	
+}
+

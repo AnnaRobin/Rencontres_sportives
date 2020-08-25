@@ -1,0 +1,14 @@
+package fr.formation;
+
+public class Athlete extends Participants {
+	
+	
+	public Athlete(String name) {
+		super(name);
+	}
+	
+	public int play1() {
+		return (0 + (int)(Math.random() * (3 - 0) + 1));
+	}
+
+}

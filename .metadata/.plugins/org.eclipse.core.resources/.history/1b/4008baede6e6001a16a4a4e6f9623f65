@@ -1,0 +1,25 @@
+package fr.formation;
+
+public class Score {
+	
+	private String name;
+	
+	public Score (String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public int play1() {
+		return (0 + (int)(Math.random() * (3 - 0) + 1));
+	}
+
+	public int play2() {
+		return ((0 + (int)(Math.random() * (3 - 0) + 1)) + (int)(Math.random() * (3 - 0) + 1));
+	}
+}
+
+
+

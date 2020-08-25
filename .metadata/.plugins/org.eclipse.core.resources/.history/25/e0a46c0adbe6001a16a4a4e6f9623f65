@@ -1,0 +1,45 @@
+package fr.formation;
+
+import java.util.ArrayList;
+
+import com.sun.tools.javac.util.List;
+
+public class Team extends Participants {
+	
+	private List<Athlete> athletes = new ArrayList<>();
+	
+	
+	public Team(String name, Athlete...athletes) {
+		super(name);
+		for (Athlete athlete : athletes) {
+			add(athlete);
+		}
+		if (athletes.length < 2 || athletes.length > 11) {
+			throw new IllegalArgumentException("The Team must be composed of min. 2 and max. 11 athletes!");
+		}
+		
+	}
+	/*
+	public int play1() {
+		return (0 + (int)(Math.random() * (3 - 0) + 1));
+	}
+	
+	public int play2() {
+		return ((0 + (int)(Math.random() * (3 - 0) + 1)) + (int)(Math.random() * (3 - 0) + 1));
+	}
+*/
+	
+	private void add(Athlete athlete) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private int numOfAthletes () {
+		return (2 + (int)(Math.random() * (11 - 2) + 1));
+	
+	if (numOfAthletes() < 2 || numOfAthletes() > 11) {
+		throw new IllegalArgumentException("The Team must be composed by min. 2, max. 11 athletes!");
+	}
+
+	}}
+

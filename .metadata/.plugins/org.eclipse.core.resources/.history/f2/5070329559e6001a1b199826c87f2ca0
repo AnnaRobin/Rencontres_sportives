@@ -1,0 +1,12 @@
+package fr.formation;
+
+public class Team extends Participants {
+	
+	
+	public Team(String name) {
+		super(name);
+	}
+	
+	
+
+}

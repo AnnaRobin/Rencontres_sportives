@@ -1,0 +1,18 @@
+package fr.formation;
+
+public class Team extends Participants {
+	
+	
+	public Team(String name) {
+		super(name);
+	}
+	
+	private int numOfAthletes () {
+		return (2 + (int)(Math.random() * (11 - 2) + 1));
+	
+	if (numOfAthletes() < 2 || numOfAthletes() > 11) {
+		throw new IllegalArgumentException("The Team must be composed by min. 2, max. 11 athletes!");
+	}
+
+	}}
+

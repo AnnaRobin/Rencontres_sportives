@@ -1,0 +1,15 @@
+package fr.formation;
+
+public class Score {
+	
+	private String name;
+	
+	public Score (String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+}

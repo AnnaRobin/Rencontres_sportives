@@ -1,0 +1,28 @@
+package fr.formation;
+
+public class Score {
+	
+	private String name;
+	
+	public Score (String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public int HalfTimeScore() {
+		return (0 + (int)(Math.random() * (3 - 0) + 1));
+	}
+
+	public int finalScore() {
+		return ((0 + (int)(Math.random() * (3 - 0) + 1)) + (int)(Math.random() * (3 - 0) + 1));
+	}
+	
+
+}
+
+
+
+

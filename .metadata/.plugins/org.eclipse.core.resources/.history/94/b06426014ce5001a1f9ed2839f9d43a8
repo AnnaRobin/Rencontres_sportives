@@ -1,0 +1,10 @@
+package fr.formation;
+
+public class Player extends Team {
+	
+	
+	public Player(String name) {
+		super(name);
+	}
+
+}

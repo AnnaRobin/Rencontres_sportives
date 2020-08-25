@@ -1,0 +1,23 @@
+package fr.formation;
+
+public abstract class Participants {
+	
+	private String name;
+	
+	public Participants(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	 int defaultNumber = 1;
+	 
+	 String numberOfAthletes ();
+	
+	default int numberOfAthletes () {
+	return defaultNumber;
+	}
+
+}
