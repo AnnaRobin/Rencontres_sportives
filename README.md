@@ -1,12 +1,4 @@
 # Rencontres_sportives
-- Objectif pédagogique = conception et programmation orientées objet
-    - Identifier des classes, leurs responsabilités
-    - Nommage, typage
-    - Encapsulation, Héritage, Composition
-    - Programmaton défensive
-    - Organisation du code
-    - Structure de données : listes
-
 
 TP programmation objet "rencontres sportives"
 
@@ -37,7 +29,7 @@ TP programmation objet "rencontres sportives"
     
     *****************************************************
     TIPS
-****
+
 - Application avec le main
 
 - Joueur
