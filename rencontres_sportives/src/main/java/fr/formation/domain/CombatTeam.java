@@ -1,6 +1,6 @@
-package fr.formation;
+package fr.formation.domain;
 
-public class TeamCombat extends Match  {
+public class CombatTeam extends Combat  {
 	
 public int halfTimeScore = (0 + (int)(Math.random() * (3 - 0) + 1));
 	

@@ -1,35 +1,45 @@
 package fr.formation;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import fr.formation.domain.CombatSingle;
+import fr.formation.domain.Referee;
+import fr.formation.domain.Team;
+import fr.formation.domain.Participant;
 
 //@SpringBootApplication
 public class Application {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(Application.class, args);
-		
-		Athlete toto = new Athlete ("Toto");
-		Athlete titi = new Athlete ("Titi");
-		Athlete tutu = new Athlete ("Tutu");
-		Athlete tata = new Athlete ("Tata");
-		
-		Athlete[] ath = {new Athlete("Toto"),new Athlete("Titi")};
-		Athlete[] ath2 = {new Athlete("Tutu"),new Athlete("Tata")};
-		Athlete[] ath3 = {new Athlete("Toto"),new Athlete("Tutu"),new Athlete("Tata")};
-		Athlete[] ath4 = {new Athlete("Tutu"),new Athlete("Titi"), new Athlete("Tata")};
+		SpringApplication.run(Application.class, args);
 				
-		Team red = new Team ("Red", ath) ;
-		Team blue = new Team ("Blue", ath2);
-		Team white = new Team ("White", ath3);
-		Team black = new Team ("Black", ath4);
+		
+		
+		
+		
+		
+		
+		
+		////////
+		Participant toto = new Participant ("Toto");
+		Participant titi = new Participant ("Titi");
+		Participant tutu = new Participant ("Tutu");
+		Participant tata = new Participant ("Tata");
+		
+		Participant[] partic1 = {new Participant("Toto"),new Participant("Titi")};
+		Participant[] partic2 = {new Participant("Tutu"),new Participant("Tata")};
+		Participant[] partic3 = {new Participant("Toto"),new Participant("Tutu"),new Participant("Tata")};
+		Participant[] partic4 = {new Participant("Tutu"),new Participant("Titi"), new Participant("Tata")};
+				
+		Team red = new Team ("Red", partic1) ;
+		Team blue = new Team ("Blue", partic2);
+		Team white = new Team ("White", partic3);
+		Team black = new Team ("Black", partic4);
 		
 		Referee referee = new Referee("Frank");
 		
-		FaceToFace match1 = new FaceToFace ();
+		CombatSingle match1 = new CombatSingle ();
 		
 		match1.play1();
 		match1.play2();

@@ -1,11 +1,12 @@
-package fr.formation;
+package fr.formation.domain;
 
 import java.util.ArrayList;
 import java.util.List;
 //import com.sun.tools.javac.util.List;
 
-public class Team extends Participants {
+public class Team extends Participant{
 	
+	private String teamName;
 	private List<Athlete> athletes = new ArrayList<>();
 	
 	private void add(Athlete athlete) {

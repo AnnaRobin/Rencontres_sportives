@@ -1,10 +1,10 @@
-package fr.formation;
+package fr.formation.domain;
 
-public class Referee {
+public abstract class Athlete {
 
 	private String name;
-	
-	public Referee(String name) {
+
+	public Athlete(String name) {
 		if (name == null) {
 			throw new NullPointerException("Name cannot be null!");
 		}
@@ -13,10 +13,6 @@ public class Referee {
 	
 	public String getName() {
 		return name;
-	};
-	
-	public static String whistle() {
-		return ("pfuuu");
 	}
-	
+
 }
